@@ -168,7 +168,8 @@ Given(/^I read the data from the "(.*?)"$/) do |arg1|
     # Take the values from the first row starting from second column
     column_vars = user_data.row(1)
     # Loop through the array column_var and create hash for each row item ["COLUMN_ID", "Cell Value"]
-    for e in 1..column_vars.length
+    for e in 1...column_vars.length
+      # e = 1, 2
       ud[column_vars[e]] = user_data.row(i)[e]
     end
     # Put the newly created hash into @user_data_by_r_c
