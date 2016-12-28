@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+*.jpg
+mweb/features/step_def/~$fat_free_crm.xlsx
+services/awetest_report/*.xls
+services/awetest_report/*.html
+services/features/step_definitions/~$fatfreecrm.xlsx
+services/new_files
+web/debug.log
+web/features/step_definitions/~$fat_free_crm.xlsx
+services
