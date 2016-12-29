@@ -1,0 +1,55 @@
+{
+  "params": {
+    "browser": null,
+    "version": null,
+    "script_file": "MyLeadsContent.feature",
+    "use_predefined_libraries": true,
+    "include_screenshots": false,
+    "capture_all_screenshots": true,
+    "capture_video": true,
+    "capture_live_video": false,
+    "live_video_streaming_url": "",
+    "capture_android_logs": false,
+    "log_properties": {
+      "sequence": 0,
+      "job_id": 10917,
+      "project_version_id": null,
+      "project_id": 147,
+      "test_run_id": 25156,
+      "script_id": 2448,
+      "company_id": 96,
+      "test_case_id": 2874,
+      "test_category_id": 1555
+    },
+    "log_queue": "regression_test_logs",
+    "log_class": "RegressionTest::Log",
+    "notify_queue": "notifications",
+    "notify_class": "MobileWebApp::TestRun",
+    "notify_id": 25156,
+    "is_debugging": false,
+    "has_video_playback": true,
+    "upload_all_screenshots_together": false,
+    "device_type": "Android Tablet",
+    "sdk": "5.1.1",
+    "screencap_path": "/home/awetest/app/tomcat/webapps/ROOT/WEB-INF/tmp",
+    "selected_devices": {
+      "Admin-PC": "http://localhost:8080/wd/hub",
+      "worker_hostname": "Admin-PC",
+      "web_url": "http://localhost:8080/wd/hub",
+      "native_url": "http://localhost:5554/wd/hub",
+      "device_id": "015d490650381403",
+      "device_uniq_id": 392
+    },
+    "environment": {
+      "name": "Example",
+      "url": "https://quiet-refuge-3333.herokuapp.com/",
+      "nodename": null,
+      "var1": null,
+      "var2": null,
+      "var3": null
+    },
+    "variables": {},
+    "library": "",
+    "variable_document_path": []
+  }
+}
