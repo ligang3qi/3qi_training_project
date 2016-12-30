@@ -1,0 +1,16 @@
+{
+  "params": {
+    "browser": "GC",
+    "environment": {
+      "name": "prod",
+      "url": "https://quiet-refuge-3333.herokuapp.com/",
+      "nodename": ""
+    },
+    "awetest_server_details": {
+      "url": "http://www.awetest.com",
+      "company_id": "1",
+      "script_awe_module": "web",
+      "project_id": "1"
+    }
+  }
+}

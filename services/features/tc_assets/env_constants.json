@@ -1,0 +1,31 @@
+{
+  "env_params": {
+    "DEV": {
+      "authorization": "Basic YWRtaW46cGFzc3dvcmQ="
+    },
+    "prod": {
+      "authorization": "Basic YWRtaW46cGFzc3dvcmQ="
+    }
+  },
+  "env_urls": {
+    "DEV": {
+      "account": "https://quiet-refuge-3333.herokuapp.com/",
+      "task": "https://quiet-refuge-3333.herokuapp.com/",
+      "campaign": "https://quiet-refuge-3333.herokuapp.com/",
+      "lead": "https://quiet-refuge-3333.herokuapp.com/",
+      "contact": "https://quiet-refuge-3333.herokuapp.com/",
+      "opportunity": "https://quiet-refuge-3333.herokuapp.com/"
+    },
+    "prod": {
+      "account": "https://quiet-refuge-3333.herokuapp.com/",
+      "task": "https://quiet-refuge-3333.herokuapp.com/",
+      "campaign": "https://quiet-refuge-3333.herokuapp.com/",
+      "lead": "https://quiet-refuge-3333.herokuapp.com/",
+      "contact": "https://quiet-refuge-3333.herokuapp.com/",
+      "opportunity": "https://quiet-refuge-3333.herokuapp.com/"
+    }
+  },
+  "capture_params": [
+    "date", "id"
+  ]
+}
