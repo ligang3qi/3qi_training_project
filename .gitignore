@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 *.jpg
+mapp
 mweb/features/step_def/~$fat_free_crm.xlsx
 services/awetest_report/*.xls
 services/awetest_report/*.html
