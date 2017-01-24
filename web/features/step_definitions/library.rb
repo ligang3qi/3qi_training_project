@@ -70,9 +70,9 @@ Then /^I select "([^"]*)" from country dropdown list$/ do |country|
   @browser.send_keys(:enter)
 end
 
-Then /^I debug web$/ do
-  # require 'pry'
-  # binding.pry
+Then /^I debug$/ do
+  require 'pry'
+  binding.pry
 
   # @browser.text_field(how.to_sym, /#{what}/).set(value)
   # @browser.text_field(:id, 'query').set('palak_1')

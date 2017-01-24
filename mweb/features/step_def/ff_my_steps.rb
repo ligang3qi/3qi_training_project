@@ -80,9 +80,8 @@ Then /^I fire_event_onclick the "?(.*?)"? with "([^"]*)" "([^"]*)"$/ do |element
 end
 
 Then /^I debug$/ do
-  # require 'pry'
-  # binding.pry
-
+  require 'pry'
+  binding.pry
 end
 
 Then /^I tap the "?(.*?)"? with "([^"]*)" "([^"]*)"$/ do |element, how, what|
