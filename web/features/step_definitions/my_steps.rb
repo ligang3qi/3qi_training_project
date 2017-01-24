@@ -1,10 +1,19 @@
 Given(/^I open a browser$/) do
   require 'watir-webdriver'
-
   @browser = Watir::Browser.new :chrome
-
   # Selenium::WebDriver::Firefox::Binary.path = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
   # @browser = Watir::Browser.new :firefox
+end
+
+Given(/^I open chrome$/) do
+  require 'watir-webdriver'
+  @browser = Watir::Browser.new :chrome
+end
+
+Given(/^I open firefox$/) do
+  require 'watir-webdriver'
+  Selenium::WebDriver::Firefox::Binary.path = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+  @browser = Watir::Browser.new :firefox
 end
 
 Given(/^I navigate to "(.*?)"$/) do |arg1|
