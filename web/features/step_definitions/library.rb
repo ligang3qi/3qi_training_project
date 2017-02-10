@@ -140,13 +140,13 @@ Given(/^I read the data from the "(.*?)"$/) do |arg1|
   obj_repo = book.sheet("obj_repo")
   @obj_repo_row = {}
   for i in 1..obj_repo.last_row
-    @obj_repo_row[obj_repo.row(i)[0]] = obj_repo.row(i)[1..obj_repo.last_column]
+    @obj_repo_row[obj_repo.row(i)[0]] = obj_repo.row(i)[1...obj_repo.last_column]
   end
 
   user_data = book.sheet("user_data")
   @user_data_row = {}
   for i in 1..user_data.last_row
-    @user_data_row[user_data.row(i)[0]] = user_data.row(i)[1..user_data.last_column]
+    @user_data_row[user_data.row(i)[0]] = user_data.row(i)[1...user_data.last_column]
   end
 
   # @column_data = {}
