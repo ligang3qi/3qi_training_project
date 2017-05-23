@@ -16,6 +16,13 @@ Given(/^I open firefox$/) do
   @browser = Watir::Browser.new :firefox
 end
 
+Given(/^I open latest firefox$/) do
+  require 'watir-webdriver'
+  # need to install selenium-webdriver v3.4 or later
+  # Both firefox.exe and geckodriver.exe should be found in environment path
+  @browser = Watir::Browser.new(:firefox, marionette: true)
+end
+
 Given(/^I navigate to "(.*?)"$/) do |arg1|
   @browser.goto arg1
 end
@@ -46,6 +53,8 @@ end
 
 Then /^I should see "([^"]*)"$/ do |text|
   # step "I wait 1 second"
+  sleep 1
+
   unless @browser.text.include? text
     fail("Did not find text #{text}")
   end
